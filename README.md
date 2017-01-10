@@ -1,6 +1,6 @@
 LaMorta
 
-Lots of code is removed in order to reach simplicity
+LaMorta's website
 
 ####Resources
 > - [Bootstrap](https://github.com/twbs)

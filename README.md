@@ -1,7 +1,6 @@
 LaMorta
 
-This website is forked from resurrectionremix - https://github.com/ResurrectionRemix/resurrectionremix.github.io
-Lots of code is removed in order to reach simplicity. All credits belong to Shubhang Rathore!
+Lots of code is removed in order to reach simplicity
 
 ####Resources
 > - [Bootstrap](https://github.com/twbs)
@@ -12,5 +11,3 @@ Lots of code is removed in order to reach simplicity. All credits belong to Shub
 ####License
 
 Copyright (C) 2017 by LaMorta.
-
-This is an open source website licensed under GPL v3.0. Copy of the license can be found [here](https://github.com/xenon92/resurrectionremix-website/blob/gh-pages/LICENSE.md).

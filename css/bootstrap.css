@@ -159,7 +159,7 @@ h2,  h3 {
 }
 body {
 	margin: 0;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Helvetica Neue", "Metal Mania", Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	line-height: 20px;
 	color: #333333;
@@ -661,10 +661,9 @@ dd {
 	margin-left: 180px;
 }
 hr {
-	margin: 5px 0;
-	border: 0;
-	border-top: 1px solid #eeeeee;
-	border-bottom: 1px solid #ffffff;
+    border: 2; 
+    height: 3px; 
+    background-image: linear-gradient(left, #f0f0f0, #8c8c8c, #f0f0f0);
 }
 abbr[title], abbr[data-original-title] {
 	cursor: help;

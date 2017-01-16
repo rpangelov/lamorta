@@ -407,12 +407,10 @@ section.single-page h1 {
 }
 /* Biography */
 
-/*section#biography {
-	color: #e4e5e2;
-	background:#312A1E;
-}*/
 section#biography {
 	padding-bottom: 0;
+	color: #e4e5e2;
+	background:#312A1E;
 }
 section#biography h1 {
 	font-size: 3em;
@@ -437,13 +435,10 @@ section#biography .align {
 }
 /* Music */
 
-/*section#music {
-	color: #e4e5e2;
-	background:#312A1E;
-}*/
-
 section#music {
 	padding-bottom: 9.5em;
+	color: #e4e5e2;
+	background:#312A1E;
 }
 #music h1 {
 	font-size: 3em;
@@ -599,8 +594,9 @@ hr.featurette-divider {
 }
 footer {
 	text-align: center;
-	color: #1a1a1a;
+	color: #FFFFFF;
 	font-weight: bold;
+	background:#000000;
 }
 footer p {
 	margin-top: -130px;

@@ -661,7 +661,7 @@ dd {
 	margin-left: 180px;
 }
 hr {
-    border: 2; 
+    border: 5; 
     height: 3px; 
     background-image: linear-gradient(left, #f0f0f0, #8c8c8c, #f0f0f0);
 }

@@ -913,7 +913,7 @@ footer p {
 	/* Smartphones (landscape) ----------- */
 	@media only screen  and (min-width : 321px) {
  #feature-headline {
- font-size: 32px; /* 34px */
+ font-size: 34px; /* 34px */
 }
 }
 
@@ -923,7 +923,7 @@ footer p {
  font-size: 1.1875em; /* 19px */
 }
  #feature article p {
- font-family: 'Open Sans', sans-serif;
+ font-family: 'Metal Mania', sans-serif;
  font-size: 26px; /* font-size: 26px; */
  margin-bottom: 0;
  line-height: 30px;

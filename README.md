@@ -2,6 +2,8 @@ LaMorta
 
 LaMorta's website
 
+Feel free to use it, clone it, change it, rebrand it, dislike it... whatever you like.
+
 ####Resources
 > - [Bootstrap](https://github.com/twbs)
 > - [NProgress](https://github.com/rstacruz/nprogress)

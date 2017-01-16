@@ -877,29 +877,6 @@ footer p {
  text-align: center;
 }
 
-
-	    /* Testimonials */
-
-		section#testimonials { /*display: none;*/
-}
-
-		/* Contacts */
-
-		#contacts .team-thumb {
- margin-right: auto;
- margin-left: auto;
- width: 150px;
- display: block;
- text-align:center
-}
- .job-position: {
- margin-bottom: 1.5em;
-}
- .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
- margin-left: auto;
- margin-right: auto;
-}
-
 /* Credits Section */
 
 #theme-form {
@@ -909,49 +886,57 @@ footer p {
  width: 100%;
 }
 }
+/*==========  Mobile First Method  ==========*/
 
-	/* Smartphones (landscape) ----------- */
-	@media only screen  and (min-width : 321px) {
- #feature-headline {
- font-size: 34px; /* 34px */
-}
-}
-
-	/* Smartphones (portrait) ----------- */
-	@media only screen  and (max-width : 320px) {
- #feature-headline {
- font-size: 1.1875em; /* 19px */
-}
- #feature article p {
- font-family: 'Metal Mania', sans-serif;
- font-size: 26px; /* font-size: 26px; */
- margin-bottom: 0;
- line-height: 30px;
- color: #fff;
-}
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+    
 }
 
-	/* iPads (portrait and landscape) ----------- */
-	@media only screen  and (min-device-width : 768px)  and (max-device-width : 1024px) {
- .banner-caption p {
- font-size: 0.6em;
-}
- #intro-caption {
- font-size: 4em;
-}
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
 }
 
-	/* iPads (landscape) ----------- */
-	@media only screen  and (min-device-width : 768px)  and (max-device-width : 1024px)  and (orientation : landscape) {
-/* Styles */
-	}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
 
-	/* iPads (portrait) ----------- */
-	@media only screen  and (min-device-width : 768px)  and (max-device-width : 1024px)  and (orientation : portrait) {
-/* Styles */
-	}
+}
 
-	/* Desktops and laptops ----------- */
-	@media only screen  and (min-width : 1224px) {
-/* Styles */
-	}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+    
+}

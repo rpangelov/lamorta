@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Carrois+Gothic|Francois+One);
+@import url(https://fonts.googleapis.com/css?family=Carrois+Gothic|Francois+One);
 
 body {font:normal 16px/22px 'Carrois Gothic',Arial,Helvetica;	background:#111;color: #ccc;}
 
@@ -63,7 +63,7 @@ a:hover{color:#fff;text-decoration:none}
 .blogevent ul li{font-size: 13px;}
 .blogevent ul li p{margin: 0;line-height: 18px;}
 
-.events ul li{background-color: #191919;margin-bottom: 1px;}
+.events ul li{background-color: #191919;margin-bottom: 1px; width: 100%;}
 .events ul li h5{margin: 7px 0;}
 .events ul li .date{text-align: center;line-height: 38px;color: #444;text-shadow: 0px -1px 0px #000;padding-top: 10px;padding-bottom: 10px;background-color: #111}
 .events ul li .date b{display: block;font-size: 30px;}

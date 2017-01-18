@@ -102,7 +102,7 @@ button.close{position: absolute;right: 0;background: #FFF;width: 25px;height: 25
 
 
 /*background slider*/
-.carousel{position: fixed; top: 0; left: 0;right: 0;bottom: 0; z-index:10;width: 100%;}
+.carousel{position: fixed; top: 0; left: 0;right: 0;bottom: 0; z-index:10;width: 100%; margin-top:51px;}
 .carousel .item {-webkit-transition: opacity 2s;
     -moz-transition: opacity 1s;
     -ms-transition: opacity 1s;

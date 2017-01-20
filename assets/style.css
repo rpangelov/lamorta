@@ -102,15 +102,31 @@ button.close{position: absolute;right: 0;background: #FFF;width: 25px;height: 25
 
 
 /*background slider*/
-.carousel{position: fixed; top: 0; left: 0;right: 0;bottom: 0; z-index:10;width: 100%; margin-top:51px;}
-.carousel .item {-webkit-transition: opacity 2s;
-    -moz-transition: opacity 1s;
-    -ms-transition: opacity 1s;
-    -o-transition: opacity 1s;
-    transition: opacity 1s;}
-.carousel .active.left {left:0;opacity:0;z-index:2;}
-.carousel .next {left:0;opacity:1;z-index:1;}
-.carousel-inner > .item > img, .carousel-inner > .item > a > img{width: 100%;}
+.carousel-fade {position: fixed; top: 0; left: 0;right: 0;bottom: 0; z-index:10;width: 100%; margin-top:51px;}
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
 /*background slider*/
 
 /*animation*/
@@ -122,4 +138,25 @@ button.close{position: absolute;right: 0;background: #FFF;width: 25px;height: 25
 	.homeinfo{padding-top: 100px;}
 	.events ul li,.events ul li .date{background: none;}
 	.events ul li .date b{display: inline;font-size: 22px;border-right: 1px solid #333;padding-right: 10px;margin-right: 10px;}
+}
+@media all and (transform-3d), (-webkit-transform-3d) {
+    .carousel-fade .carousel-inner > .item.next,
+    .carousel-fade .carousel-inner > .item.active.right {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.prev,
+    .carousel-fade .carousel-inner > .item.active.left {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.next.left,
+    .carousel-fade .carousel-inner > .item.prev.right,
+    .carousel-fade .carousel-inner > .item.active {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
 }

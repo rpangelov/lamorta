@@ -1143,6 +1143,12 @@ img {
 .img-circle {
   border-radius: 50%;
 }
+.img-respons {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 5px;
+}
 hr {
   margin-top: 20px;
   margin-bottom: 20px;

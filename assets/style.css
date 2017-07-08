@@ -1,6 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Carrois+Gothic|Francois+One);
 
-body {font:normal 16px/22px 'Carrois Gothic',Arial,Helvetica;	background:#111;color: #ccc;}
+body {font:normal 16px/22px 'Carrois Gothic',Arial,Helvetica;	
+background: url('images/back1.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 h1,h2,h3,h4,h5,h6{ font-weight:normal;padding: 0;margin: 0;color: #fff;}
 h1,h2,h3{ font-family: 'Francois One',Arial,Helvetica;text-transform: uppercase;}
